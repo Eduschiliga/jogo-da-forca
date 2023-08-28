@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jogo da Forca</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="game-modal">
+      <div class="content">
+        <img src="assets/imagens/lost.gif" alt="Perdeu gif" />
+        <h4>Você perdeu!</h4>
+        <p>A palavra correta era: <b>rainbow</b></p>
+        <button class="play-again">Jogar Denovo</button>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="hangman-box">
+        <img src="assets/imagens/hangman-0.svg" alt="Hangman Imagem" />
+        <h1>Jogo da Forca</h1>
+      </div>
+      <div class="game-box">
+        <ul class="word-display"></ul>
+
+        <h4 class="hint-text">
+          Dica:
+          <b>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
+            excepturi placeat sit voluptas, dolore minima?
+          </b>
+        </h4>
+
+        <h4 class="guesses-text">
+          Tentativas:
+          <b> 0 / 6 </b>
+        </h4>
+        <div class="keyboard"></div>
+      </div>
+    </div>
+    <script type="module" src="assets/js/main.js"></script>
+    <script src="assets/js/word-list.js"></script>
+  </body>
+</html>
