@@ -27,3 +27,6 @@ Este é um projeto do jogo da forca, onde os jogadores podem testar suas habilid
 - **CSS:** O estilo e o layout da página são definidos com CSS, proporcionando uma experiência visual atraente.
 
 - **JavaScript:** A lógica do jogo é implementada em JavaScript. Isso inclui a seleção aleatória de palavras, o controle das suposições dos jogadores e a exibição das imagens do boneco enforcado.
+
+- ![Exemplo](assets/imagens/jogoforca.png)
+
