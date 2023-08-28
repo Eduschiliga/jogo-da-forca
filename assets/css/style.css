@@ -6,7 +6,9 @@
 }
 
 :root {
-  --body-color: #5e63ba;
+  --first-color: #C7FFED;
+  --second-color: #008F8C;
+  --third-color: #04BF8A;
   --container-color: #fff;
   --color-red: #ff0000;
 }
@@ -16,7 +18,7 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background-color: var(--body-color);
+  background: linear-gradient(to bottom, var(--first-color), var(--second-color));
   padding: 0 10px;
 }
 
@@ -101,7 +103,7 @@ body {
   font-size: 1rem;
   font-weight: 600;
   text-transform: uppercase;
-  background-color: var(--body-color);
+  background-color: var(--third-color);
   border-radius: 4px;
   border: none;
   outline: none;
@@ -115,7 +117,7 @@ body {
 }
 
 :where(.game-modal, .keyboard) button:hover {
-  background-color: #8286c9;
+  background-color: #03a64a9d;
 }
 
 .game-modal {
